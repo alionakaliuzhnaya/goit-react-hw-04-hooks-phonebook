@@ -1,8 +1,7 @@
-import { Field,Form } from 'formik';
 import styled from 'styled-components';
 
 
-export const StyledForm = styled(Form)`
+export const FormContainer=styled.form`
 padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
@@ -35,10 +34,8 @@ padding-top: 10px;
     
     &:hover {
         background-color:rgb(255, 102, 153);
-
     }`
 
-export const Input =styled(Field)`
+export const FormInput=styled.input`
 margin-bottom: 20px;
 height: 30px;`
-    
