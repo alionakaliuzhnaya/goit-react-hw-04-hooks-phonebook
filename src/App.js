@@ -9,7 +9,7 @@ import {Container,PhonebookTitle,ContactTitle} from "./App.styled"
 
 export default function App() {
   const [contacts,setContacts]=useState(()=>{
-    return JSON.parse(window.localStorage.getItem("contacts"))?? "";
+    return JSON.parse(window.localStorage.getItem("contacts"))?? [];
   });
   const [filter,setFilter]=useState("");
   
